@@ -56,6 +56,67 @@
         </nav>
       </div>
     </header>
+
+    <div class="mobile-navigation" aria-label="mobile navigation">
+      <label for="toggler-id" aria-label="mobile navigation toggler">
+        <svg class="mobile-navigation-burger">
+          <use href="assets/sprite.svg#burger-icon"></use>
+        </svg>
+      </label>
+      <input
+        type="checkbox"
+        id="toggler-id"
+        class="mobile-navigation-toggler"
+      />
+
+      <nav class="mobile-navigation-nav" aria-label="navigation">
+        <ul class="mobile-nav-list" aria-label="mobile navigation nav-list">
+          <li>
+            <a href="#home-id" class="mobile-nav-link" aria-label="link to home"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about-id"
+              class="mobile-nav-link"
+              aria-label="link to about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#history-id"
+              class="mobile-nav-link"
+              aria-label="link to history"
+              >History</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio-id"
+              class="mobile-nav-link"
+              aria-label="link to portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contacts-id"
+              class="mobile-nav-link"
+              aria-label="link to contacts"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+        <label for="toggler-id" aria-label="mobile navigation cross">
+          <svg class="mobile-navigation-cross">
+            <use href="assets/sprite.svg#cross-icon"></use>
+          </svg>
+        </label>
+      </nav>
+    </div>
+
     <main aria-label="main">
       <section id="home-id" class="home" aria-label="home section">
         <div class="container">
